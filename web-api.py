@@ -55,7 +55,7 @@ time.sleep(1)
 pwm.set_pwm(1, 0, servo_min)
 time.sleep(1)
 
-app = flask.Flask(_name_)
+app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
