@@ -40,3 +40,17 @@ https://my.cytron.io/p-adapter-5v-4a-r-angle-dc-jack-2.1mm-uk-plug
 8. DC Jack(Female) to Screw Terminal Adapter
 https://my.cytron.io/p-dc-jack-female-to-screw-terminal-adapter
 
+### Hock Up :
+
+### Python Code :
+
+Code for burn test: \
+[simpletest-counting.py](simpletest-counting.py)
+
+Code with web api:\
+[web-api.py](web-api.py)
+
+### Troubleshooting :
+
+To test out the servo motor: \
+[servo-test.md](servo-test.md)
