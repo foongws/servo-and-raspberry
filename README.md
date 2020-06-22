@@ -42,6 +42,8 @@ https://my.cytron.io/p-dc-jack-female-to-screw-terminal-adapter
 
 ### Hock Up :
 
+### Raspberry setup and configuration :
+
 ### Python Code :
 
 Code for burn test: \
