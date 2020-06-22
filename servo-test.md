@@ -8,7 +8,7 @@ The GPIO pins are defined as follows on the Raspberry Pi 4 (most of which are co
 
 Connect first servo to pin 33 (GPIO 13) and second servo to pin 8 (GPIO 14). Second servo can get power from pin 4 and ground at pin 6.
 
-![MG90S_wiring_RPI.png](MG90S_wiring_RPI.pngg)
+![MG90S_wiring_RPI.png](MG90S_wiring_RPI.png)
 
 This is the python code to test the servo motor.
 
