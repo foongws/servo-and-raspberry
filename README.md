@@ -44,6 +44,7 @@ https://my.cytron.io/p-dc-jack-female-to-screw-terminal-adapter
 [Hooking-it-Up.md](Hooking-it-Up.md)
 
 ### Raspberry setup and configuration :
+[setup-and-configuration.md](setup-and-configuration.md)
 
 ### Python Code :
 
