@@ -2,6 +2,14 @@ In case you hook up everything and nothing work, in order to confirm which item 
 
 This setup also suitable for project without the PWM Servo Driver.
 
+The GPIO pins are defined as follows on the Raspberry Pi 4 (most of which are consistent with other Raspberry Pi boards):
+
+![RPI_GPIO-Pinout-Diagram-transparent.png](RPI_GPIO-Pinout-Diagram-transparent.png)
+
+Connect first servo to pin 33 (GPIO 13) and second servo to pin 8 (GPIO 14). Second servo can get power from pin 4 and ground at pin 6.
+
+![MG90S_wiring_RPI.png](MG90S_wiring_RPI.pngg)
+
 This is the python code to test the servo motor.
 
 ```
@@ -39,3 +47,7 @@ pwm.ChangeDutyCycle(0) # this prevents jitter
 pwm.stop() # stops the pwm on 13
 GPIO.cleanup() # good practice when finished using a pin
 ```
+
+Reference :
+
+https://makersportal.com/blog/2020/3/21/raspberry-pi-servo-panning-camera
