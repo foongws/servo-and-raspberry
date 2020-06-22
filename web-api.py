@@ -74,3 +74,7 @@ def api_all():
 
 print('Web API is ready now, press Ctrl-C to quit...')
 app.run(host="0.0.0.0")
+
+# To drive the servo motor , just need to curl this URL
+#  curl http://a.b.c.d:5000/api/v1/servo?id=0
+#  curl http://a.b.c.d:5000/api/v1/servo?id=1
