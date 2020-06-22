@@ -41,6 +41,7 @@ https://my.cytron.io/p-adapter-5v-4a-r-angle-dc-jack-2.1mm-uk-plug
 https://my.cytron.io/p-dc-jack-female-to-screw-terminal-adapter
 
 ### Hock Up :
+[Hooking-it-Up.md](Hooking-it-Up.md)
 
 ### Raspberry setup and configuration :
 
@@ -53,6 +54,8 @@ Code with web api:\
 [web-api.py](web-api.py)
 
 ### Troubleshooting :
+
+Remember to turn on the power of PCA9685.
 
 To test out the servo motor: \
 [servo-test.md](servo-test.md)
